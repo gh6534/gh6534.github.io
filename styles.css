@@ -2,3 +2,30 @@ body {
         background-color: #FFFF99;
       }
     
+#container {
+        width: 80%
+        margin-left: auto;
+        margin-right: auto;
+}
+
+header {
+     margin-top: 10px;
+     margin-bottom: 20px;
+     backgorund-color: #FFFFFF;
+     border-radius: 10px;
+     box-shadow: 12px 12px 12px #404040;
+     text-align: center;
+}
+
+nav {
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 1.25mm
+        font-weight: bold;
+        text-align: center;
+        padding: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+        border-top: 5px solid #FFFFFF;
+        border-bottom: 5px solid #FFFFFF;
+}
