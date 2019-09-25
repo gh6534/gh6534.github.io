@@ -42,3 +42,8 @@ main {
         box-shadow: 12px 12px 12px #404040;
         
         
+footer
+        font-size: .70em;
+        text-align: center;
+        margin-top: 20px;
+}
