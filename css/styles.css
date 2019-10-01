@@ -79,20 +79,14 @@ footer
         margin-top: 2em;
 }
 
+
+/* Style hides the tablet class */
+.tablet {
+        display: none;
+}
+
+/* Style rule specifies to not display the equip class */
 .equip {
-       float: left; 
-        padding-right: 20px;
+       display: none;
 }
 
-ul {
-      margin-bottom: 50px;  
-       list-style-position: inside;
-}
-
-dt {
-     font-weight: bold;   
-}
-
-dd {
-    padding-bottom: 20px;
-}
