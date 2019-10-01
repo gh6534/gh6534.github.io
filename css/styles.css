@@ -34,6 +34,22 @@ nav ul {
                 margin-top: 0.5em;
 }
 
+/* Style for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and padding for list items within the navigation */
+nav li { 
+         background-color: #009933;
+        border-radius: 2em;
+        list-style-type: none;
+        margin: 0.3em;
+        padding: 0.4em;
+}
+
+
+/* Style changes navigation link text color to white and removes the underline */
+nav li a {
+        color: #FFFFFF;
+        text-decoration: none;
+}
+
 main {
         display: block;
         font-family: Verdana, Arial, sans-serif;
