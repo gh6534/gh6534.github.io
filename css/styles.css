@@ -4,6 +4,11 @@ body {
     
 #container {
         width: 80%
+                
+/* style to create a fluid image */
+img (
+        max-width: 100%;
+)
         margin-left: auto;
         margin-right: auto;
 }
