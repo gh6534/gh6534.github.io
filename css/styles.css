@@ -1,38 +1,37 @@
 body {
         background-color: #FFFF99;
       }
-    
-#container {
-        width: 80%
-                
-/* style to create a fluid image */
+    /* style to create a fluid image */
 img (
         max-width: 100%;
 )
+
+/* styles for Modible Layout */
+#container {
+        width: 100%
         margin-left: auto;
         margin-right: auto;
 }
-
+/* Style for the header specifies top margin, background color, rounded corners, and center-aligns content */
 header {
-     margin-top: 10px;
-     margin-bottom: 20px;
+     margin-top: 0.2em;
      backgorund-color: #FFFFFF;
-     border-radius: 10px;
-     box-shadow: 12px 12px 12px #404040;
+     border-radius: 0.5em;
      text-align: center;
 }
-
+/* Style for the nav specifies text properties */
 nav {
         font-family: Georgia, "Times New Roman", serif;
         font-size: 1.25mm
         font-weight: bold;
         text-align: center;
-        padding: 15px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        border-radius: 20px;
-        border-top: 5px solid #FFFFFF;
-        border-bottom: 5px solid #FFFFFF;
+}
+
+/*Style specifies padding and margins for unordered list */
+nav ul {
+                padding: 0;
+                margin-bottom: 0.5em;
+                margin-top: 0.5em;
 }
 
 main {
