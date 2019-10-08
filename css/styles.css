@@ -134,5 +134,37 @@ main {
         float: left;
         margin-right: 1.5em;
 }
+
+/* Style specifies a display, list-style-position, and bottom margin for the items class */
+.items {
+        display: block;
+        list-style-position: inside;
+        margin-bottom: 5em;
+}
+
+/* Style specifies to display the tablet  class */
+.tablet {
+        display: block;
+}
+
+/* Style specifies a font weight and top margin for description list terms */
+dt {
+        font-weight: bold;
+        margin-top: 0.7em;      
+}
+    
+}        
         
+/* Media query for desktop viewport targets screens with a minimum width of 769px. */
+
+@media only screen and (min-width: 769px) {
+
+/* Style specifies a width for container */
+#container {
+        width: 80%;
+}
+        
+}
+
+
 
