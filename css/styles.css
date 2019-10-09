@@ -90,9 +90,9 @@ footer
        display: none;
 }
 
-/* Media query for tablet viewport targets screen size with a minimum width of 481px. */
+/* Media query for tablet viewport targets screen size with a minimum width of 660px.*/
 
-@media only screen and (min-width: 481px) {
+@media only screen and (min-width: 660px) {
         
 }
 
@@ -105,6 +105,7 @@ nav li {
         padding-left: 0;
         padding-right: 0;
         width: 18%;
+        white-space: nowrap;
 }
 }
 
@@ -155,16 +156,84 @@ dt {
     
 }        
         
-/* Media query for desktop viewport targets screens with a minimum width of 769px. */
+/* Media query for desktop viewport targets screens with a minimum width of 830px. */
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 830px) {
 
 /* Style specifies a width for container */
 #container {
         width: 80%;
 }
         
+/* Style specifies margin and padding for the unordered list within the nav */
+nav ul {
+        margin: 0;
+        padding-left: 0.50%
+        padding-right: 0.50%;
 }
+        
+/* Style for navigation list items specifies a border radius, border, margin, width, and padding *
+nav li {
+        border-radius: 0;
+        border-top: solid #000000;
+        border-bottom: solid #000000;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+        width: 20%;
+}
+
+/* Style for navigation links specifies display and padding */
+nav li a {
+        display: inline:block;
+        padding: 0.7em;
+}
+        
+/* Style rules for pseudo-classes */
+nav li a:link {
+        color: #FFFFFF;
+}
+
+nav li a:visited {
+        color: #FFFF99;
+}
+        
+nav li a:hover {
+        color: #FFFF00;
+        font-style: italic;
+}
+ 
+/* Style specifies border, shadow, margin, and padding for main element */
+main {
+        border-style: none;
+        box-shadow: 0.5em 0.5em 0.5em #404040;
+        margin-bottom: 1em;
+        margin-top: 1em;
+}
+
+/* Style specifies left and right padding for paragraph elements within the main element */
+main p {
+        padding-left:0.5em;
+        padding-right: 0.5em;
+}
+
+/* Style specifies a bottom margin for the items class */
+.items{
+        margin-bottom: 6em;
+}
+        
+/* Style specifies a gradient for the body element */
+body {
+        background: -moz-linear-gradient(#FFFFFF, #FFFF99); /* Firefox */
+        background: -o-linear-gradient(#FFFFFF, #FFFF99); /* Opera */
+        background: -webkit-linear-gradient(#FFFFFF, #FFFF99); /* Chrome, Safari */
+        background: linear-gradient(#FFFFFF, #FFFF99);
+        background-attachment: fixed
+}
+        
+}
+
+
 
 
 
