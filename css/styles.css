@@ -7,11 +7,13 @@ img (
 )
 
 /* styles for Modible Layout */
+
 #container {
         width: 100%
         margin-left: auto;
         margin-right: auto;
 }
+
 /* Style for the header specifies top margin, background color, rounded corners, and center-aligns content */
 header {
      margin-top: 0.2em;
