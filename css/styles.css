@@ -17,16 +17,16 @@ img (
 /* Style for the header specifies top margin, background color, rounded corners, and center-aligns content */
 header {
      margin-top: 0.2em;
-     backgorund-color: #FFFFFF;
+     background-color: #FFFFFF;
      border-radius: 0.5em;
      text-align: center;
 }
 /* Style for the nav specifies text properties */
 nav {
         font-family: Georgia, "Times New Roman", serif;
-        font-size: 1.25mm
+        font-size: 1.25em
         font-weight: bold;
-        text-align: center;
+        text-align: center;desktop
 }
 
 /*Style specifies padding and margins for unordered list */
@@ -54,9 +54,9 @@ nav li a {
 
 
 /* Style displays the mobile class */
-.mobile (
+.mobile {
         display: inline;
-)
+}
 
 /* Style hides the desktop class  */
 .desktop {
@@ -170,7 +170,7 @@ dt {
 /* Style specifies margin and padding for the unordered list within the nav */
 nav ul {
         margin: 0;
-        padding-left: 0.50%
+        padding-left: 0.50%;
         padding-right: 0.50%;
 }
         
@@ -187,7 +187,7 @@ nav li {
 
 /* Style for navigation links specifies display and padding */
 nav li a {
-        display: inline:block;
+        display: inline-block;
         padding: 0.7em;
 }
         
