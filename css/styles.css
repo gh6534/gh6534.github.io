@@ -115,6 +115,11 @@ footer a {
         
 }
 
+/* Style for aside element */
+ aside {
+        font-style: italic;
+}
+      
 /* Style specifies a horizontal display for navigation links */
 nav li {
         display: inline;
@@ -221,6 +226,45 @@ section a {
         color: #1D1D1C;
         padding: 0;
         text-decoration: underline;
+}
+
+/* Style for article element */
+article {
+        background-color: #C1D9CA;
+        float: left;
+        margin: 0.5%;
+        padding: 0.5%;
+        text-align: center;
+        width: 31%;
+}
+
+/* Style for image element contained within the main article element */
+main article img {
+        border: solid 0.1em #1D1D1C;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+/* Style for paragraph element contained within the main article element */
+main article p {
+        color: #000000;
+        margin-top: 2%;
+        padding: 1%;
+        text-align: left;
+}
+
+/* Style for aside element */
+aside {
+        background-color: #FFFFFF;
+        border-radius: 0 5em 5em 5em;
+        box-shadow: 1em 1em 1em #4C4F4D;
+        padding: 1.5em;
+        margin: 1em;
+}
+
+/* Style for unordered list element contained within the main article element */
+main article ul {
+        text-align: left;
 }
 
 /* Media query for desktop viewport targets screens with a minimum width of 830px. */
@@ -350,6 +394,12 @@ main h2 {
 .contact {
         color: #FFFFFF;
 }
+
+/* Style for main article h2 element */
+main article h2 {
+        color: #000000;
+}
+
 
 
 
