@@ -158,12 +158,13 @@ main {
 .items {
         display: block;
         list-style-position: inside;
-        margin-bottom: 5em;
 }
 
 /* Style specifies to display the tablet  class */
 .tablet {
         display: block;
+        margin-top: -3em
+        margin-bottom: -1em;
 }
 
 /* Style specifies a font weight and top margin for description list terms */
@@ -194,7 +195,25 @@ figure a {
         padding: 0;
         text-decoration: none;
 }
-      
+
+/* Style specifies bottom padding for the section element */
+section {
+        padding-bottom: 3em;
+}
+
+/* Style for h1 element within the section element */
+section h1 {
+        text-align: left;
+}
+
+/* Style for anchor element within the section element */
+section a {
+        background-color: transparent;
+        color: #1D1D1C;
+        font-weight: normal;
+        padding: 0;
+        text-decoration: underline;
+}
 /* Media query for desktop viewport targets screens with a minimum width of 830px. */
 
 @media only screen and (min-width: 830px) {
@@ -286,12 +305,7 @@ figure img: hover {
 /* Style specifies a bottom margin for the items class */
 .items{
         margin-bottom: 6em;
-}
-        
-/* Style specifies a gradient for the body element */
-body {
-       background-color: #FFFFFF;
-}     
+}   
 }
 
 /* Style specifies a background color, margin, and padding for footer element */
@@ -301,6 +315,22 @@ footer {
         padding: 2em;
 }
 
+/* Style specifies color and left margin for the section element */
+section {
+        color: #FFFFFF;
+        margin-left: 1em;
+        padding-bottom: 5em;
+}
+
+/* Style for anchor element within the section element */
+section a {
+        color: #FFFFFF;
+}
+
+/* Style for paragraph element within the section element */
+section p {
+        margin-left: 0;
+}
 
 
 
