@@ -214,6 +214,15 @@ section a {
         padding: 0;
         text-decoration: underline;
 }
+
+/* Style for contact class */
+.contact {
+        background-color: transparent;
+        color: #1D1D1C;
+        padding: 0;
+        text-decoration: underline;
+}
+
 /* Media query for desktop viewport targets screens with a minimum width of 830px. */
 
 @media only screen and (min-width: 830px) {
@@ -330,6 +339,16 @@ section a {
 /* Style for paragraph element within the section element */
 section p {
         margin-left: 0;
+}
+
+/* Style for main h2 element */
+main h2 {
+        color: #FFFFFF;
+}
+
+/* Style for contact class */
+.contact {
+        color: #FFFFFF;
 }
 
 
