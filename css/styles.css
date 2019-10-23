@@ -262,6 +262,32 @@ aside {
         margin: 1em;
 }
 
+/*style for table element*/
+	table{
+		border:0.1em solid #000000;
+		border-collapse:collapse;
+		margin-left:auto;
+		margin-right:auto;
+		width:100%;
+	}
+
+/*style specifies border and padding for th and td elements*/
+	th, td{
+		border: .1em solid #000000;
+		padding: 1em;
+	}
+/*style for th element*/
+	th{
+		background-color: 	#1D1D1C;
+		color: 				#FFFFFF;
+	}
+
+/*style for caption element*/
+	caption{
+		font-size:1.5em;
+		font-weight:bold;
+		padding-bottom:0.5em;
+	}
 /* Style for unordered list element contained within the main article element */
 main article ul {
         text-align: left;
@@ -401,7 +427,16 @@ main article h2 {
         color: #000000;
 }
 
+/*style for table element*/
+	table{
+		background-color:#FFFFFF;
+		width:85%;
+	}
 
+/* Style for caption element */
+caption {
+        color: #FFFFFF;
+}
 
 
 
