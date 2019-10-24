@@ -119,6 +119,27 @@ footer a {
  aside {
         font-style: italic;
 }
+
+/*style rule for input, select, and textarea form elements*/
+input, select, textarea{
+	display:block;
+	margin-bottom:1em;
+}
+
+/*style rule for label element*/
+label{
+	display:block;
+}
+
+/*style rule for unordered list within a form*/
+form ul{
+	list-style-type:none;
+}
+
+/*style rule for chkbx class*/
+.chkbx{
+	display:inline-block;
+}
       
 /* Style specifies a horizontal display for navigation links */
 nav li {
@@ -280,6 +301,18 @@ aside {
 	th{
 		background-color: 	#1D1D1C;
 		color: 				#FFFFFF;
+	}
+/*style rule for label element*/
+	label{
+		float:			left;
+		padding-right:	.5em;
+		text-align:		right;
+		width:			10em;
+	}
+	
+	/*style rule for btn class*/
+	.btn{
+		margin-left:	12em;
 	}
 
 /*style for caption element*/
